@@ -36,6 +36,7 @@ setup(
     ],
     long_description=README,
     zip_safe=False,
+    use_2to3 = True,
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
